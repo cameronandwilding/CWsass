@@ -1,0 +1,17 @@
+{
+  "name": "cwsassnpm",
+  "version": "1.0.3",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^3.8.0"<% if (includeGulp) { %>,
+    "gulp": "^3.9.1"<% } %><% if (includeSass) { %>,
+    "gulp-sass": "^2.3.2"<% } %><% if (includeSasslint) { %>,
+    "gulp-sass-lint": "^1.2.0"<% } %><% if (includeSassdoc) { %>,
+    "sassdoc": "^2.1.20"<% } %><% if (includeSourcemaps) { %>,
+    "gulp-sourcemaps": "^1.6.0"<% } %><% if (includeBrowsersync) { %>,
+    "browser-sync": "^2.14.0"<% } %><% if (includeAutoprefixer) { %>,
+    "gulp-autoprefixer": "^3.1.0"<% } %><% if (includeBreakpoint) { %>,
+    "breakpoint-sass": "^2.7.0"<% } %><% if (includeSusy) { %>,
+    "susy": "^2.2.12"<% } %>
+  }
+}
