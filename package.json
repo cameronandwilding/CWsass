@@ -7,6 +7,12 @@
     "url": "https://github.com/cameronandwilding/CWsass"
   },
   "license": "MIT",
+  "keywords": [
+    "yeoman-generator",
+    "Sass authoring",
+    "Sass",
+    "front-end"
+  ],
   "main": "app/index.js",
   "files": [
     "generators"
