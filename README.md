@@ -1,8 +1,8 @@
-## cwsass
+## CWsass
 
 This Yeoman generator will provide you with a biased set of tools for rapid, structured Sass authoring.
 
-By default when creating a project using this tool, it will download [node-sass](https://www.npmjs.com/package/node-sass). You are then
+By default when scaffolding a project using this tool, it will download [node-sass](https://www.npmjs.com/package/node-sass). You are then
 given a series of options for what else to include in your project. These are based on a recommended workflow of Gulp + Libsass.
 
 * [Gulp](http://gulpjs.com/)
