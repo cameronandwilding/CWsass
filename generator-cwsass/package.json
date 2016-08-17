@@ -2,6 +2,10 @@
   "name": "generator-cwsass",
   "version": "1.0.0",
   "description": "An opinionated set of tools for rapid, structured Sass authorship",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/cameronandwilding/CWsass"
+  },
   "license": "MIT",
   "main": "app/index.js",
   "files": [

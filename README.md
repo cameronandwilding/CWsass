@@ -83,3 +83,7 @@ This will create a new directory called sassdoc, open the index.html file inside
 ## License
 
 MIT
+
+## Credit
+
+This work is sponsored and supported by Cameron & Wilding, a [London Drupal Agency](https://www.cameronandwilding.com/).
