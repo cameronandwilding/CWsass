@@ -43,7 +43,13 @@ yo cwsass
 The project assumes you are working on a local installation of a project. If so, the proxy's address you've set up may
 not be the same as a collaborator's (mylocalsite.dev etc). For this reason, you'll find a file called example.browserSyncConfig.js
 in the project. Before editing this file, rename it and save it as browserSyncConfig.js. Then edit it with your local proxy info.
-This file is registered in the gitignore file, so you won't have conflict issues with collaborators.
+This file is registered in the gitignore, so you won't have conflict issues with collaborators.
+
+If you try to run a gulp command before renaming the file, you'll receive the following error:
+
+```bash
+Error: Cannot find module './browserSyncConfig'
+```
 
 ### Gulp commands
 
